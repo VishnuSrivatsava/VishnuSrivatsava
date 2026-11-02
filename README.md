@@ -9,9 +9,9 @@ runs on billions of machines.
 
 | Project | Contribution | Outcome |
 |---|---|---|
-| [neovim/neovim](https://github.com/neovim/neovim/pull/42560) | Regex engine crash on invalid multi-byte input: grapheme cluster walker now terminates on undecodable bytes | **Merged** |
-| [curl/curl](https://github.com/curl/curl/commit/a4eed8c7) | RFC 7838 Alt-Svc: protocol tokens are percent-decoded before ALPN mapping | **Merged, my commit on master** |
-| [tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract/pull/4669) | Renderer failure exited with code 0: now propagates EXIT_FAILURE | **Merged** |
+| [neovim/neovim](https://github.com/neovim/neovim/pull/42560) | Regex engine crash on invalid multi-byte input | **Merged** |
+| [curl/curl](https://github.com/curl/curl/commit/a4eed8c7) | RFC 7838 Alt-Svc percent-encoded protocol names never matched | **Merged, my commit on master** |
+| [tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract/pull/4669) | Renderer failure exited with code 0 | **Merged** |
 | [faker-cxx](https://github.com/cieslarmichal/faker-cxx/pull/1035) | dataUri generator for SVG images, 100th contributor | **Merged** |
 
 Also in review: [vim](https://github.com/vim/vim/pull/21689) (same fix backported),
@@ -53,6 +53,8 @@ top 6 of 700+)
 WCA competitor since 2018 · **5 medals (2 gold)** · top 50 in India, 3x3 One-Handed
 
 ## Bug autopsies
+
+The full stories behind the merges above: trigger, root cause, fix.
 
 **Neovim.** Trigger: a regex pattern walking input that contains an undecodable byte next to a
 combining sequence. Root cause: the grapheme cluster walker treated every byte after a base
