@@ -35,7 +35,7 @@ Presented at IndiaFOSS 2026.
 
 ## Competitive programming
 
-[Codeforces Specialist 1412](https://codeforces.com/profile/Cuber2113) ·
+[Codeforces Specialist 1444](https://codeforces.com/profile/Cuber2113) ·
 [LeetCode Guardian 2160](https://leetcode.com/mathcuber/) ·
 [CodeChef 3★ 1739](https://www.codechef.com/users/mathcuber) ·
 [WCA profile](https://www.worldcubeassociation.org/persons/2018SRIV11)
