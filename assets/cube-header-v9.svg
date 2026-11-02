@@ -269,9 +269,8 @@
 <rect x="432" y="121.5" width="11" height="11" fill="#006d32" rx="1"/>
 <rect x="446" y="121.5" width="11" height="11" fill="#161b22" rx="1"/>
 <rect x="447.5" y="123" width="7" height="7" fill="#8a7cff" rx="1"/>
-<polygon points="1060,103 1110,78 1160,103 1160,150.5 1110,175.5 1060,150.5" fill="#161b22"/>
-<animateTransform attributeName="transform" type="rotate" values="-1.5 1105 110; 1.5 1105 110; -1.5 1105 110" dur="5s" repeatCount="indefinite" additive="sum"/>
-<g transform="matrix(16.6667,8.33333,16.6667,-8.33333,1060,103)">
+<polygon points="1060,46 1110,21 1160,46 1160,93.5 1110,118.5 1060,93.5" fill="#161b22"/>
+<g transform="matrix(16.6667,8.33333,16.6667,-8.33333,1060,46)">
 <rect x="0.06" y="0.06" width="0.88" height="0.88" rx="0.06" fill="#8a7cff">
 <animate attributeName="fill" values="#8a7cff;#4a7bd9;#4f9e5f;#d9d9d9;#d9d9d9" keyTimes="0;0.2;0.4;0.68;1" dur="8s" begin="0.00s" repeatCount="indefinite"/>
 </rect>
@@ -300,7 +299,7 @@
 <animate attributeName="fill" values="#c94f4f;#4fb3a5;#4a7bd9;#d9d9d9;#d9d9d9" keyTimes="0;0.2;0.4;0.68;1" dur="8s" begin="0.40s" repeatCount="indefinite"/>
 </rect>
 </g>
-<g transform="matrix(16.6667,8.33333,0,15.8333,1060,103)">
+<g transform="matrix(16.6667,8.33333,0,15.8333,1060,46)">
 <rect x="0.06" y="0.06" width="0.88" height="0.88" rx="0.06" fill="#89529c">
 <animate attributeName="fill" values="#89529c;#3d7b4a;#89529c;#aa4343;#aa4343" keyTimes="0;0.25;0.5;0.72;1" dur="8s" begin="0.30s" repeatCount="indefinite"/>
 </rect>
@@ -329,7 +328,7 @@
 <animate attributeName="fill" values="#9c3d3d;#a96329;#a96329;#aa4343;#aa4343" keyTimes="0;0.25;0.5;0.72;1" dur="8s" begin="0.70s" repeatCount="indefinite"/>
 </rect>
 </g>
-<g transform="matrix(16.6667,-8.33333,0,15.8333,1110,128)">
+<g transform="matrix(16.6667,-8.33333,0,15.8333,1110,71)">
 <rect x="0.06" y="0.06" width="0.88" height="0.88" rx="0.06" fill="#777777">
 <animate attributeName="fill" values="#777777;#284377;#6e2b2b;#3e68b8;#3e68b8" keyTimes="0;0.25;0.5;0.72;1" dur="8s" begin="0.60s" repeatCount="indefinite"/>
 </rect>
