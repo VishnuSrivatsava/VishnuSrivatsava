@@ -1,4 +1,4 @@
-<img src="assets/header.svg?v=2" width="100%" alt="VISHNU SRIVATSAVA" />
+<img src="assets/header.svg?v=3" width="100%" alt="VISHNU SRIVATSAVA" />
 
 ## What I do
 

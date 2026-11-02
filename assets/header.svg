@@ -285,4 +285,13 @@
 <rect x="744" y="130" width="12" height="12" fill="#006d32" rx="1"/>
 <rect x="760" y="130" width="12" height="12" fill="#161b22" rx="1"/>
 <rect x="762" y="132" width="8" height="8" fill="#8a7cff" rx="1"/>
+<rect x="1106" y="120" width="16" height="16" fill="#c94f4f" rx="1"/>
+<rect x="1125" y="120" width="16" height="16" fill="#4a7bd9" rx="1"/>
+<rect x="1144" y="120" width="16" height="16" fill="#4f9e5f" rx="1"/>
+<rect x="1106" y="139" width="16" height="16" fill="#d9c14a" rx="1"/>
+<rect x="1125" y="139" width="16" height="16" fill="#d97f35" rx="1"/>
+<rect x="1144" y="139" width="16" height="16" fill="#d9d9d9" rx="1"/>
+<rect x="1106" y="158" width="16" height="16" fill="#8a7cff" rx="1"/>
+<rect x="1125" y="158" width="16" height="16" fill="#4fb3a5" rx="1"/>
+<rect x="1144" y="158" width="16" height="16" fill="#b06ac9" rx="1"/>
 </svg>
