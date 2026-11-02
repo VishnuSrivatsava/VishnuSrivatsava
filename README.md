@@ -28,7 +28,7 @@ S24 Ultra. Presented at IndiaFOSS 2026.
 ## Stack
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=c,cpp,rust,python,linux,git,android,react,js,postgres,bash,docker" />
+  <img src="https://skillicons.dev/icons?i=c,cpp,rust,python,linux,git,kotlin,react,js,postgres,bash,docker" />
 </a>
 
 ## Competitive programming
