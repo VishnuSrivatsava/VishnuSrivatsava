@@ -1,10 +1,10 @@
-<img src="assets/header.svg" width="100%" alt="VISHNU SRIVATSAVA" />
+<img src="assets/header.svg?v=2" width="100%" alt="VISHNU SRIVATSAVA" />
 
 ## What I do
 
-Systems programmer. I fix real bugs in the hardest C codebases that exist, build cross-platform
-tooling, and speak about it at conferences. Currently at Capgemini, building a multi-agent
-incident-management system.
+Systems programmer. I fix real bugs in C codebases like Neovim and curl, build cross-platform
+tooling, and speak about it at conferences. Currently building a multi-agent incident-management
+system.
 
 ## Open source, merged upstream
 
