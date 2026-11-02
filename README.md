@@ -2,9 +2,9 @@
 
 ## What I do
 
-Systems programmer. I fix real bugs in C codebases like Neovim and curl, build cross-platform
-tooling, and speak about it at conferences. Currently building a multi-agent incident-management
-system.
+Systems programmer. I fix real bugs in C codebases like Neovim, curl and Tesseract: software
+that runs on billions of machines. There is a decent chance some of my code is on your computer
+right now.
 
 ## Open source, merged upstream
 
