@@ -3,7 +3,7 @@
 ## What I do
 
 Systems programmer. My merged patches fix real bugs in Neovim, curl and Tesseract: code that
-runs on billions of machines. By day I build a multi-agent incident-management system in Python.
+runs on billions of machines.
 
 ## Open source, merged upstream
 
