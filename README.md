@@ -16,7 +16,7 @@ runs on billions of machines.
 
 Also in review: [vim](https://github.com/vim/vim/pull/21689) (same fix backported),
 [micropython](https://github.com/micropython/micropython/pull/19839) (FFI arity TypeError),
-and a [race condition analysis](https://github.com/openssl/openssl/issues/33399#issuecomment-6556507520) on an OpenSSL issue.
+and a [race condition analysis + deterministic reproducer](https://github.com/openssl/openssl/issues/33399#issuecomment-6587629226) on an OpenSSL issue.
 
 ## SocketSweep
 
