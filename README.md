@@ -2,7 +2,7 @@
 
 ## What I do
 
-Systems programmer. My merged patches fix real bugs in Neovim, curl and Tesseract: code that
+Systems programmer. My merged patches fix real bugs in Neovim, Vim, curl and Tesseract: code that
 runs on billions of machines.
 
 ## Open source, merged upstream
@@ -10,12 +10,12 @@ runs on billions of machines.
 | Project | Contribution | Outcome |
 |---|---|---|
 | [neovim/neovim](https://github.com/neovim/neovim/pull/42560) | Regex engine crash on invalid multi-byte input | **Merged** |
+| [vim/vim](https://github.com/vim/vim/pull/21689) | Backtracking regexp never matched a literal followed by \%C with 'ignorecase' | **Merged as [patch 9.2.1298](https://github.com/vim/vim/commit/ffb58fba60992bbe80f9ea5e3b9619d85cede1bd); [ported to Neovim](https://github.com/neovim/neovim/pull/42715) with solution credit** |
 | [curl/curl](https://github.com/curl/curl/commit/a4eed8c7) | RFC 7838 Alt-Svc percent-encoded protocol names never matched | **Merged, my commit on master** |
 | [tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract/pull/4669) | Renderer failure exited with code 0 | **Merged** |
 | [faker-cxx](https://github.com/cieslarmichal/faker-cxx/pull/1035) | dataUri generator for SVG images, 100th contributor | **Merged** |
 
-Also in review: [vim](https://github.com/vim/vim/pull/21689) (same fix backported),
-[micropython](https://github.com/micropython/micropython/pull/19839) (FFI arity TypeError),
+Also in review: [micropython](https://github.com/micropython/micropython/pull/19839) (FFI arity TypeError),
 and a [race condition analysis + deterministic reproducer](https://github.com/openssl/openssl/issues/33399#issuecomment-6587629226) on an OpenSSL issue.
 
 ## SocketSweep
@@ -70,6 +70,13 @@ the ALPN mapping.
 **Tesseract.** Trigger: a renderer failure such as a missing output configuration. Root cause:
 the failure path exited with code 0, so scripts and CI believed a render succeeded when it had
 not. Fix: propagate EXIT_FAILURE.
+
+**Vim.** Trigger: searching for a literal followed by \%C with 'ignorecase' on text containing
+composing characters. Root cause: cstrncmp() counted characters with MB_PTR_ADV(), which includes
+composing characters, so the one byte pattern was compared against the base character plus its
+combining marks and failed before the \%C atom could skip them. Fix: compare base characters on
+both sides, the way the NFA engine already did. Applied upstream as patch 9.2.1298 and ported
+into Neovim the next day, with the solution credited by name.
 
 ## Media tools
 
