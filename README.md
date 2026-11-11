@@ -2,13 +2,14 @@
 
 ## What I do
 
-Systems programmer. My merged patches fix real bugs in Neovim, Vim, curl and Tesseract: code that
+Systems programmer. My merged patches fix real bugs in CCExtractor, Neovim, Vim, curl and Tesseract: code that
 runs on billions of machines.
 
 ## Open source, merged upstream
 
 | Project | Contribution | Outcome |
 |---|---|---|
+| [CCExtractor/ccextractor](https://github.com/CCExtractor/ccextractor/pull/2430) | SIGSEGV in RCWT teletext parsing: the mode decision was re-read from a buffer already overwritten with caption data | **Merged** |
 | [neovim/neovim](https://github.com/neovim/neovim/pull/42560) | Regex engine crash on invalid multi-byte input | **Merged** |
 | [vim/vim](https://github.com/vim/vim/pull/21689) | Backtracking regexp never matched a literal followed by \%C with 'ignorecase' | **Merged as [patch 9.2.1298](https://github.com/vim/vim/commit/ffb58fba60992bbe80f9ea5e3b9619d85cede1bd); [ported to Neovim](https://github.com/neovim/neovim/pull/42715) with solution credit** |
 | [curl/curl](https://github.com/curl/curl/commit/a4eed8c7) | RFC 7838 Alt-Svc percent-encoded protocol names never matched | **Merged, my commit on master** |
