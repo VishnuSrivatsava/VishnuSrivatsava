@@ -10,7 +10,7 @@ and Tesseract: code that runs on billions of machines.
 | Project | Contribution | Outcome |
 |---|---|---|
 | [microsoft/qdk](https://github.com/microsoft/qdk/pull/4271) | Q# compiler panic during QIR generation: defunctionalization dispatch branches shared argument nodes that a later pass rewired in place, leaving a sibling branch reading an unbound local | **Merged same day** |
-| [microsoft/qdk](https://github.com/microsoft/qdk/pull/4272) | Q# evaluator panicked with "value should be callable" when a runtime-selected callable hit a functor application; the partial evaluation placeholder now propagates so the existing call check fails cleanly | **Approved** |
+| [microsoft/qdk](https://github.com/microsoft/qdk/pull/4272) | Q# evaluator panicked with "value should be callable" when a runtime-selected callable hit a functor application; the partial evaluation placeholder now propagates so the existing call check fails cleanly | **Merged same day** |
 | [CCExtractor/ccextractor](https://github.com/CCExtractor/ccextractor/pull/2430) | SIGSEGV in RCWT teletext parsing: the mode decision was re-read from a buffer already overwritten with caption data | **Merged** |
 | [neovim/neovim](https://github.com/neovim/neovim/pull/42560) | Regex engine crash on invalid multi-byte input | **Merged** |
 | [vim/vim](https://github.com/vim/vim/pull/21689) | Backtracking regexp never matched a literal followed by \%C with 'ignorecase' | **Merged as [patch 9.2.1298](https://github.com/vim/vim/commit/ffb58fba60992bbe80f9ea5e3b9619d85cede1bd); [ported to Neovim](https://github.com/neovim/neovim/pull/42715) with solution credit** |
